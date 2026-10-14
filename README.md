@@ -1,7 +1,14 @@
 # OpenV2 Space Colonisation
 
-Python implementation of a space-colonisation growth simulation, with both a
-desktop Matplotlib executable and an interactive browser app.
+Python implementation of a space-colonisation growth simulation.
+
+## Run In-Browser
+
+[Click here to run simulation in browser.](https://doguopenvenation.streamlit.app)
+
+OR follow the link: https://doguopenvenation.streamlit.app
+
+Supplied with a desktop Matplotlib executable and an interactive browser app.
 
 ## Run the desktop simulation
 
