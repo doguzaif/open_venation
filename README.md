@@ -21,12 +21,3 @@ Supplied with a desktop Matplotlib executable and an interactive browser app.
 The web app asks for the space width and height (Nx and Ny), runs the network
 growth simulation, and presents its iterations with Plotly Play/Pause controls
 and a slider.
-
-## Publish the web app
-
-Push this project to GitHub, then create an app in Streamlit Community Cloud
-with openv2_web/app.py as the entrypoint. The project-level pyproject.toml
-and uv.lock declare its dependencies.
-
-The executable uses a density formula of 1,000 attractors per 10,000 µm².
-The loop stops when a growth iteration adds no nodes.
